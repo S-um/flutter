@@ -47,7 +47,6 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             SfRadialGauge(axes: <RadialAxis>[
               RadialAxis(
-                labelOffset: 30,
                 axisLineStyle: const AxisLineStyle(color: Colors.white),
                 majorTickStyle: const MajorTickStyle(color: Colors.white),
                 minorTickStyle: const MinorTickStyle(color: Colors.white),
